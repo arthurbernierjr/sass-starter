@@ -1,0 +1,21 @@
+{
+  "name": "linux-sass-starter",
+  "version": "0.1.0",
+  "description": "Write Sass for linux",
+  "main": "server.js",
+  "scripts": {
+    "watch": "gulp",
+    "styles": "gulp styles",
+    "dev": "npm run styles && npm run watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.3.1",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-sass": "^3.0.0",
+    "node-sass": "^4.14.1"
+  },
+  "dependencies": {}
+}
